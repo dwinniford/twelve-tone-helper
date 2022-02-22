@@ -15,6 +15,8 @@ namespace TwelveToneHelper
             } else if(input == "n") 
             {
                 Console.WriteLine("goodbye!");
+            } else {
+                Console.WriteLine("I didn't catch that. Goodbye!");
             }
         }
     }
