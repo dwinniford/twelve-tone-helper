@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twelve-tone-helper", "src\twelve-tone-helper.csproj", "{F2C819E1-C5B1-49FE-BFB4-0AE4DF1C1B62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0F9933C4-95DA-4152-B61A-D3EFEF99DEFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwelveToneHelper.Tests", "test\TwelveToneHelper.Tests\TwelveToneHelper.Tests.csproj", "{79551D16-5532-4C67-9C38-EBDEFC2D1626}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2C819E1-C5B1-49FE-BFB4-0AE4DF1C1B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C819E1-C5B1-49FE-BFB4-0AE4DF1C1B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C819E1-C5B1-49FE-BFB4-0AE4DF1C1B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C819E1-C5B1-49FE-BFB4-0AE4DF1C1B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79551D16-5532-4C67-9C38-EBDEFC2D1626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79551D16-5532-4C67-9C38-EBDEFC2D1626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79551D16-5532-4C67-9C38-EBDEFC2D1626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79551D16-5532-4C67-9C38-EBDEFC2D1626}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79551D16-5532-4C67-9C38-EBDEFC2D1626} = {0F9933C4-95DA-4152-B61A-D3EFEF99DEFA}
+	EndGlobalSection
+EndGlobal
